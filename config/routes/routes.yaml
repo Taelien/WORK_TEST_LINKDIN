@@ -1,0 +1,9 @@
+# config/routes.yaml
+
+grabUnique:
+    path: /grabUniqueElements
+    controller: App\Controller\WorkTestDemo::grabUniqueElements
+
+grabSpecificSkillName:
+    path: /grabSpecificSkillName/{skillName}
+    controller: App\Controller\WorkTestDemo::grabSpecificSkillName
